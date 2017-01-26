@@ -1,0 +1,82 @@
+﻿<%@ Master  Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Resolt.Helpers.Site1" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+<title>Resolt Door</title>
+    <!--General -->
+     <link href="Styles.css" rel="stylesheet" />
+   <!-- Register -->
+
+           <!-- Style.CSS --> 
+      
+    <!--Rank-->
+    <link href="Rankcss/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link rel="stylesheet" type="text/css" href="Rankcss/jquery-ui.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<!--web-fonts-->
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css' />
+<link href='//fonts.googleapis.com/css?family=Josefin+Sans:400,100,100italic,300,300italic,400italic,600,600italic,700,700italic' rel='stylesheet' type='text/css'/>
+<!-- js -->
+<script type="text/javascript" src="Rankcss/jquery-2.1.4.min.js"></script>
+
+
+    <script src="../Helpers/Styles/easyResponsiveTabs.js"></script>
+    <script src="../Helpers/Styles/jquery-1.11.1.min.js"></script>
+    <link href="../Helpers/style.css" rel="stylesheet" />
+    <link href="Helpers/Rankcss/style.css" rel="stylesheet" />
+<!-- Horizontal-Tabs-JavaScript -->
+
+
+<!-- Body -->
+
+	<!-- Heading -->
+	<!-- //Headng -->
+</head>
+    <body>
+        <form runat="server" >          <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder>
+       
+<div class="container">
+
+		<div class="tabs">
+
+			<div class="sap_tabs">
+
+				<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+
+
+	<!-- Container -->
+					<ul class="resp-tabs-list">
+						<li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><h2><span><a  ID="logi" runat="server" href="../Accounts/Login.aspx"><asp:literal id="log" runat="server"></asp:literal></a></span></h2></li>
+						<li class="resp-tab-item" aria-controls="tab_item-2" role="tab"><span><a href="../Accounts/Register.aspx"><asp:literal id="profile" runat="server"></asp:literal></a> </span></li>
+						<li class="resp-tab-item" aria-controls="tab_item-3" role="tab"><span><a href="../WebForm1.aspx">RANKS</a></span></li>
+						<li class="resp-tab-item" aria-controls="tab_item-4" role="tab"><span><a href="../Accounts/wall.aspx">WALL</a></span></li>
+
+					</ul>
+
+                    </div></div>
+                </div>
+            </div>            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+        <div class="footer">
+
+		<!-- Copyright -->
+		<div class="copyright">
+			<p> &copy; 2016 Resolt. All Rights Reserved | Design by <a href="http://Resolt.com">Resolt</a></p>
+		</div>
+	</div>	<!-- //Copyright -->
+	<!-- //Footer -->
+     
+
+  
+    
+   </form>
+
+</body>
+</html>

@@ -1,0 +1,10 @@
+c:\users\future-sateesh\documents\visual studio 2012\Projects\Resolt\Resolt\bin\Resolt.dll
+c:\users\future-sateesh\documents\visual studio 2012\Projects\Resolt\Resolt\bin\Resolt.pdb
+c:\users\future-sateesh\documents\visual studio 2012\Projects\Resolt\Resolt\obj\Debug\Resolt.csprojResolveAssemblyReference.cache
+c:\users\future-sateesh\documents\visual studio 2012\Projects\Resolt\Resolt\obj\Debug\Resolt.dll
+c:\users\future-sateesh\documents\visual studio 2012\Projects\Resolt\Resolt\obj\Debug\Resolt.pdb
+W:\Resolt Porject Intern Need Virtual For Process\Resolt\bin\Resolt.dll
+W:\Resolt Porject Intern Need Virtual For Process\Resolt\bin\Resolt.pdb
+W:\Resolt Porject Intern Need Virtual For Process\Resolt\obj\Debug\Resolt.csprojResolveAssemblyReference.cache
+W:\Resolt Porject Intern Need Virtual For Process\Resolt\obj\Debug\Resolt.dll
+W:\Resolt Porject Intern Need Virtual For Process\Resolt\obj\Debug\Resolt.pdb
